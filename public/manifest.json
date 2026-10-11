@@ -1,0 +1,25 @@
+{
+  "name": "Wanderlore — AI Location Adventure",
+  "short_name": "Wanderlore",
+  "description": "Real Places · Imagined Stories. An AI-powered location-based treasure hunt in Kozhikode.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#FBF8F1",
+  "theme_color": "#2D5A46",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

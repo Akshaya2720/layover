@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#2D5A46" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Wanderlore" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Wanderlore — AI Location-Based Adventure in Kozhikode (Calicut)</title>
+    <meta name="title" content="Wanderlore — AI Location-Based Adventure in Kozhikode (Calicut)" />
+    <meta name="description" content="Transform real-world travel into an interactive treasure hunt. Explore UNESCO City of Literature Kozhikode with AI Game Master, 3D AR relics, verified oral histories, and personalized storybooks." />
+    <meta name="keywords" content="Wanderlore, Kozhikode, Calicut, Kerala, AI game master, Anam AI, Google Gemini, treasure hunt, heritage travel, SM Street, Mananchira, 3D AR, PWA" />
+    <meta name="author" content="Wanderlore Adventure Studio" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wanderlore.app/" />
+    <meta property="og:title" content="Wanderlore — AI Location-Based Adventure in Kozhikode" />
+    <meta property="og:description" content="Real Places · Imagined Stories. Walk through historic Calicut, solve location-based riddles with an AI avatar guide, and collect 3D cultural artifacts." />
+    <meta property="og:image" content="/icon.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://wanderlore.app/" />
+    <meta property="twitter:title" content="Wanderlore — AI Location-Based Adventure in Kozhikode" />
+    <meta property="twitter:description" content="Real Places · Imagined Stories. An interactive location-based treasure hunt powered by Google Gemini, Anam AI, and Supabase." />
+    <meta property="twitter:image" content="/icon.svg" />
+
+    <!-- Icons & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- High Performance CDN Connections for Fonts and Maps -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin />
+
+    <!-- Google Fonts: Playfair Display + Plus Jakarta Sans + Cinzel -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Leaflet Map CSS via CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script type="module" crossorigin src="/assets/index-aKgn0QlK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BQmR4NfB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Service worker registration for PWA installation
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => {
+            console.log('[SW] Note:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

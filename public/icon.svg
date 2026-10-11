@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A46"/>
+      <stop offset="100%" stop-color="#1B382B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3C677"/>
+      <stop offset="100%" stop-color="#D4A359"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- Outer Gold Ring -->
+  <circle cx="256" cy="256" r="185" fill="none" stroke="url(#gold)" stroke-width="8" stroke-dasharray="8 6"/>
+  
+  <!-- Compass Rose Points -->
+  <polygon points="256,95 275,235 256,220 237,235" fill="url(#gold)"/>
+  <polygon points="256,417 275,277 256,292 237,277" fill="#E29E38"/>
+  <polygon points="417,256 277,275 292,256 277,237" fill="url(#gold)"/>
+  <polygon points="95,256 235,275 220,256 235,237" fill="#E29E38"/>
+  
+  <!-- Diagonal Points -->
+  <polygon points="370,142 270,242 278,252 252,278" fill="url(#gold)" opacity="0.6"/>
+  <polygon points="142,370 242,270 234,260 260,234" fill="#E29E38" opacity="0.6"/>
+  <polygon points="370,370 270,270 260,278 234,252" fill="url(#gold)" opacity="0.6"/>
+  <polygon points="142,142 242,242 252,234 278,260" fill="#E29E38" opacity="0.6"/>
+  
+  <!-- Center Emblem (Map Pin with Botanical Leaf) -->
+  <circle cx="256" cy="256" r="65" fill="#FAF7F0" stroke="url(#gold)" stroke-width="5"/>
+  <path d="M256 215 C235 215 220 230 220 250 C220 275 256 305 256 305 C256 305 292 275 292 250 C292 230 277 215 256 215 Z" fill="#2D5A46"/>
+  <circle cx="256" cy="245" r="14" fill="#D4A359"/>
+  <!-- Leaf flourish -->
+  <path d="M285 225 C298 215 315 220 315 220 C315 220 310 238 298 245 C285 245 285 225 285 225 Z" fill="#34D399"/>
+</svg>
